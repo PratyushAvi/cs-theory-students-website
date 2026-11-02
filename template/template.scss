@@ -1,0 +1,62 @@
+/*-- scss:defaults --*/
+
+$web-font-path: false;   // skip Cosmo's Source Sans Pro
+$font-family-sans-serif: "Junicode", Georgia, serif;
+
+/*-- scss:rules --*/
+@font-face {
+  font-family: "Junicode";
+  src: url("https://cdn.jsdelivr.net/gh/psb1558/Junicode-font@v2.226/webfiles/JunicodeVF-Roman.woff2") format("woff2");
+  font-weight: 300 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Junicode";
+  src: url("https://cdn.jsdelivr.net/gh/psb1558/Junicode-font@v2.226/webfiles/JunicodeVF-Italic.woff2") format("woff2");
+  font-weight: 300 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/*-- scss:rules --*/
+
+.site-header {
+  margin: auto 0;
+}
+
+.site-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #000;
+  margin: 0;
+
+  @media (min-width: 768px) {
+    font-size: 2rem;
+  }
+}
+
+.site-nav {
+  display: flex;
+  gap: 2.5rem;
+  font-size: 0.9rem;
+  margin: 20px 0;
+
+  a {
+    color: #000;
+    text-decoration: underline dotted;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+
+    &:hover {
+      color: #000;
+      text-decoration-style: solid;
+    }
+  }
+}
+
+#quarto-margin-sidebar {
+  margin-top: 120px;   // roughly the header's height
+}

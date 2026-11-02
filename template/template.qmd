@@ -1,0 +1,74 @@
+---
+title: "Post Title"
+date: 2026-11-02
+author:
+  - name: Author Name
+    id: jc
+    email: [insert email ID]
+    affiliation: 
+      - name: New York University
+        city: New York City
+        state: NY
+abstract: > 
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultricies aliquam dolor, in fringilla nibh tincidunt eget. Mauris eleifend mi nec pellentesque dictum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris accumsan lorem ligula, fermentum posuere ex venenatis ac. Quisque pharetra sodales nisi ut luctus. 
+keywords:
+  - keyword 1
+  - keyword 2
+# license: "CC BY"
+# copyright: 
+#   holder: Josiah Carberry
+#   year: 2008
+# citation: 
+#   container-title: Journal of Psychoceramics
+#   volume: 1
+#   issue: 1
+#   doi: 10.5555/12345678
+# funding: "The author received no specific funding for this work."
+format:
+    html:
+        theme: [cosmo, template.scss]
+        toc: true
+        number-sections: true
+        html-math-method: katex
+        # code-tools: true
+        self-contained: true
+        code-fold: true
+        include-before-body: header.html
+---
+
+# Introduction
+You can edit this document with all the standard markdown syntax you are familiar with. Check out this [Markdown Guide](https://www.markdownguide.org/) for reference. 
+
+In addition to basic Markdown, Quarto packs in a bunch of other powerful tools. Check out the [Quarto's Documentation](https://quarto.org/) for more information.
+
+## Math
+
+### In-Line Math
+You can add inline math by using `$<text>$`: e.g. $E = mc^2$
+
+### Block Equations
+You can add block equations as follows by using
+```md
+$$
+    <text>
+$$
+```
+e.g.:
+$$
+    E = mc^2
+$$
+
+## Code Blocks
+Example code block
+```C++
+#include <iostream>
+
+int main() {
+    cout << "hello world!\n";
+    return 0;
+}
+
+```
+
+# Other Important Information
+This document uses the accompanying `template.scss` file for styling. Ensure that you are happy with the HTML rendering of your website before sharing it with us. 
