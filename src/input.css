@@ -42,7 +42,7 @@
 }
 
 .link_colorful {
-  @apply underline decoration-violet-800;
+  @apply underline decoration-2 decoration-violet-800;
 }
 
 .postItem {

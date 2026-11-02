@@ -11,7 +11,6 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-violet-800: oklch(43.2% 0.232 292.759);
-    --color-gray-300: oklch(87.2% 0.01 258.338);
     --color-gray-800: oklch(27.8% 0.033 256.848);
     --color-black: #000;
     --spacing: 0.25rem;
@@ -268,11 +267,17 @@
   .text-left {
     text-align: left;
   }
+  .font-\[Helvetica\] {
+    font-family: Helvetica;
+  }
   .font-gambetta {
     font-family: var(--font-gambetta);
   }
   .font-junicode {
     font-family: var(--font-junicode);
+  }
+  .font-sans {
+    font-family: var(--font-sans);
   }
   .text-\[0\.7rem\] {
     font-size: 0.7rem;
@@ -321,9 +326,6 @@
   @media (width >= 64rem) {
     .lg\:max-w-5\/10 {
       max-width: calc(5 / 10 * 100%);
-    }
-    .lg\:max-w-6\/10 {
-      max-width: calc(6 / 10 * 100%);
     }
     .lg\:max-w-\[75\%\] {
       max-width: 75%;
@@ -419,6 +421,7 @@
 .link_colorful {
   text-decoration-line: underline;
   text-decoration-color: var(--color-violet-800);
+  text-decoration-thickness: 2px;
 }
 .postItem {
   margin-block: 10px;
