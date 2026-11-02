@@ -1,0 +1,64 @@
+@import url('https://api.fontshare.com/v2/css?f[]=gambetta@300,301,400,401,500,501,600,601,700,701&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+@import "tailwindcss";
+
+/* Office Code Pro (self-declared from jsDelivr) */
+@font-face { font-family: "Office Code Pro"; src: url("https://cdn.jsdelivr.net/gh/chrissimpkins/codeface@40538ae/fonts/office-code-pro/OfficeCodePro-Light.otf") format("opentype"); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: "Office Code Pro"; src: url("https://cdn.jsdelivr.net/gh/chrissimpkins/codeface@40538ae/fonts/office-code-pro/OfficeCodePro-LightItalic.otf") format("opentype"); font-weight: 300; font-style: italic; font-display: swap; }
+@font-face { font-family: "Office Code Pro"; src: url("https://cdn.jsdelivr.net/gh/chrissimpkins/codeface@40538ae/fonts/office-code-pro/OfficeCodePro-Regular.otf") format("opentype"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Office Code Pro"; src: url("https://cdn.jsdelivr.net/gh/chrissimpkins/codeface@40538ae/fonts/office-code-pro/OfficeCodePro-RegularItalic.otf") format("opentype"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "Office Code Pro"; src: url("https://cdn.jsdelivr.net/gh/chrissimpkins/codeface@40538ae/fonts/office-code-pro/OfficeCodePro-Medium.otf") format("opentype"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Office Code Pro"; src: url("https://cdn.jsdelivr.net/gh/chrissimpkins/codeface@40538ae/fonts/office-code-pro/OfficeCodePro-MediumItalic.otf") format("opentype"); font-weight: 500; font-style: italic; font-display: swap; }
+@font-face { font-family: "Office Code Pro"; src: url("https://cdn.jsdelivr.net/gh/chrissimpkins/codeface@40538ae/fonts/office-code-pro/OfficeCodePro-Bold.otf") format("opentype"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Office Code Pro"; src: url("https://cdn.jsdelivr.net/gh/chrissimpkins/codeface@40538ae/fonts/office-code-pro/OfficeCodePro-BoldItalic.otf") format("opentype"); font-weight: 700; font-style: italic; font-display: swap; }
+@font-face {
+  font-family: "Junicode";
+  src: url("https://cdn.jsdelivr.net/gh/psb1558/Junicode-font@6978714/webfiles/JunicodeVF-Roman.woff2") format("woff2");
+  font-weight: 300 700;
+  font-stretch: 75% 125%;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Junicode";
+  src: url("https://cdn.jsdelivr.net/gh/psb1558/Junicode-font@6978714/webfiles/JunicodeVF-Italic.woff2") format("woff2");
+  font-weight: 300 700;
+  font-stretch: 75% 125%;
+  font-style: italic;
+  font-display: swap;
+}
+
+@theme {
+  --font-gambetta: "Gambetta", serif;
+  --font-libertinus: "Libertinus Serif", serif;
+  --font-eb-garamond: "EB Garamond", serif;
+  --font-source-serif: "Source Serif 4", serif;
+  --font-office-code: "Office Code Pro", monospace;
+  --font-junicode: "Junicode", serif;
+}
+
+.link {
+  @apply underline decoration-dashed underline-offset-auto;
+}
+
+.link_colorful {
+  @apply underline decoration-violet-800;
+}
+
+.postItem {
+  @apply my-[10px];
+}
+
+.summary {
+  @apply text-[0.8rem] text-gray-800;
+}
+
+@layer base {
+    td {
+        @apply p-[10px] md:text-[1rem] text-[0.7rem]
+    }
+
+    th {
+        @apply md:text-[1.1rem] text-[0.8rem]
+    }
+}
