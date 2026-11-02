@@ -5,7 +5,7 @@ This website is intended for sharing and broadcasting the brilliant work of the 
 ## Sharing a post
 If you would like to share a post on the website, you can email the website maintainers (emails below) or make a pull request to the `docs` directory. 
 
-To maintain some uniformity, we will be using the given [Quarto](https://quarto.org) template: `template.qmd`. Download the template, write up your posts, and share the `.qmd` file with us. **All posts will be HTML renderings of the `.qmd` files.**
+To maintain some uniformity, we will be using the given [Quarto](https://quarto.org) template in the [template](./template/) directory. Copy the entire directory and edit the `template.qmd` file only. Write up your posts and share the `.qmd` file with us. **All posts will be HTML renderings of the `.qmd` files.**
 
 If you would like to use some other typesetting program or share something else, please reach out to us and we can figure something out.
 

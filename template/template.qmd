@@ -9,11 +9,13 @@ author:
       - name: New York University
         city: New York City
         state: NY
+    # url: [insert link to wherever we can find you on the web (personal website, social media, etc.)]
 abstract: > 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultricies aliquam dolor, in fringilla nibh tincidunt eget. Mauris eleifend mi nec pellentesque dictum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris accumsan lorem ligula, fermentum posuere ex venenatis ac. Quisque pharetra sodales nisi ut luctus. 
 keywords:
   - keyword 1
   - keyword 2
+  - "..."
 # license: "CC BY"
 # copyright: 
 #   holder: Josiah Carberry
