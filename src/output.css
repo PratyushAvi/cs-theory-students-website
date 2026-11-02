@@ -267,23 +267,23 @@
   .text-left {
     text-align: left;
   }
-  .font-\[Helvetica\] {
-    font-family: Helvetica;
-  }
   .font-gambetta {
     font-family: var(--font-gambetta);
   }
   .font-junicode {
     font-family: var(--font-junicode);
   }
-  .font-sans {
-    font-family: var(--font-sans);
-  }
   .text-\[0\.7rem\] {
     font-size: 0.7rem;
   }
+  .text-\[0\.8rem\] {
+    font-size: 0.8rem;
+  }
   .text-\[0\.9rem\] {
     font-size: 0.9rem;
+  }
+  .text-\[0\.75rem\] {
+    font-size: 0.75rem;
   }
   .text-\[1\.3rem\] {
     font-size: 1.3rem;
