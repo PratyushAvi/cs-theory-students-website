@@ -326,6 +326,9 @@
     --tw-border-style: solid;
     border-style: solid;
   }
+  .bg-\[\#eee6f3\] {
+    background-color: #eee6f3;
+  }
   .bg-\[\#eee\] {
     background-color: #eee;
   }
